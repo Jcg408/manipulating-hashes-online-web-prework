@@ -24,4 +24,3 @@ def first_challenge
   end
  contacts
 end
-
