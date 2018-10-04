@@ -18,9 +18,10 @@ def first_challenge
       detail.each do |x|
         if x == "strawberry"
           detail.delete(x)
-
-
-  #remember to return your newly altered contacts hash!
-  contacts
+        end
+      end
+    end
+  end
+ contacts
 end
 
