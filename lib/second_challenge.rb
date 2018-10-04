@@ -8,6 +8,7 @@ def second_challenge
   items = []
   groceries.collect do |key, value|
     value.collect do |x, y|
+      items.push(y)
     #code your solution here!
 
   
