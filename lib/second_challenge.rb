@@ -5,8 +5,10 @@ def second_challenge
    meat: ["chicken", "steak", "salmon"],
    grains: ["rice", "pasta"]
   }
-  groceries
-  #code your solution here!
+  items = []
+  groceries.collect do |x,y|
+    items << x.values
+    #code your solution here!
 
   
 
