@@ -12,8 +12,8 @@ def first_challenge
       favorite_icecream_flavors: ["strawberry", "cookie dough", "mint chip"]
     }
   }
-
-  #your code here
+  contacts.each do |person, data|
+  
 
 
   #remember to return your newly altered contacts hash!
