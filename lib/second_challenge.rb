@@ -5,12 +5,6 @@ def second_challenge
    meat: ["chicken", "steak", "salmon"],
    grains: ["rice", "pasta"]
   }
-  items = []
-  groceries.collect do |key, value|
-    value.collect do |x, y|
-      items.push(y)
-    #code your solution here!
-
   
-
+  groceries.values
 end
